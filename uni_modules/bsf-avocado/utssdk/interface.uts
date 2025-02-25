@@ -1,0 +1,39 @@
+/**
+ * interface.uts
+ * uts插件接口定义文件，按规范定义接口文件可以在HBuilderX中更好的做到语法提示
+ */
+
+export type DiscoverOptions = {
+  onDiscoveryStarted ?: () => void,
+  onDeviceFound ?: (res : any) => void,
+  onDiscoveryStopped ?: () => void
+}
+
+export type ConnectOptions = {
+  address: string,
+  onConnect ?: (res : boolean) => void,
+}
+
+export type GetStatusOptions = {
+  onResponse ?: (res: string) => void,
+  onErrorResponse ?: (res : number) => void
+}
+
+export type PrintJobOptions = {
+  isFirmUpdata: boolean,
+  copies: number,
+  fwPath ?: string,
+  tempPath ?: string, 
+  onProgressChange ?: (max:number, current: number, jobId: number) => void,
+  onCreateJobSuccess ?: (jobId:number) => void,
+  onCreateJobFail ?: (errorCode: number, errorReason: String) => void,
+  onTransferCompleted ?: (jobId: number) => void,
+  onResponse ?: (res: any) => void,
+  onErrorResponse ?: (res : number) => void
+}
+
+export type RequestPermissionOptions = {
+  onPermit?: () => void,
+  onRefuse?: ()	=> void
+}
+

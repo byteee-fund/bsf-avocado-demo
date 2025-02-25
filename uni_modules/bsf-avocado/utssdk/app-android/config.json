@@ -1,0 +1,20 @@
+{
+  "minSdkVersion": "21",
+  "dependencies": [
+  	"com.google.code.gson:gson:2.8.2",
+  	"com.orhanobut:logger:2.2.0",
+  	"com.alibaba:arouter-api:1.5.2",
+  	"io.reactivex.rxjava2:rxandroid:2.0.1",
+	"io.reactivex.rxjava2:rxjava:2.0.9",
+	"com.squareup.retrofit2:retrofit:2.2.0",
+	"com.squareup.retrofit2:converter-gson:2.2.0",
+	"com.squareup.retrofit2:adapter-rxjava2:2.2.0",
+	"com.squareup.okhttp:okhttp:2.6.0"
+  ],
+  "project": {
+	 "plugins": [
+	 	  "io.github.jasonz1987.arouter"
+	 ] 
+  }
+ 
+}

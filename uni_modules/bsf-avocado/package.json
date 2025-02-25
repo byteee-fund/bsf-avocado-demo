@@ -1,0 +1,78 @@
+{
+    "id": "bsf-avocado",
+    "displayName": "成都极数医疗蓝牙打印SDK-UTS插件",
+    "version": "1.0.0",
+    "description": "专为成都极数医疗蓝牙打印SDK定制的UTS插件，目前仅支持Android。",
+    "keywords": [
+        "极数",
+        "蓝牙",
+        "打印",
+        "UTS"
+    ],
+    "repository": "https://github.com/byteee-fund/bsf-avocado-doc",
+    "engines": {
+        "HBuilderX": "^3.6.8"
+    },
+    "dcloudext": {
+        "type": "uts",
+        "sale": {
+            "regular": {
+                "price": "199.00"
+            },
+            "sourcecode": {
+                "price": "399.00"
+            }
+        }
+    },
+    "uni_modules": {
+        "dependencies": [],
+        "encrypt": [],
+        "platforms": {
+            "cloud": {
+                "tcb": "n",
+                "aliyun": "n",
+                "alipay": "n"
+            },
+            "client": {
+                "Vue": {
+                    "vue2": "y",
+                    "vue3": "y"
+                },
+                "App": {
+                    "app-android": "y",
+                    "app-ios": "n",
+                    "app-harmony": "n"
+                },
+                "H5-mobile": {
+                    "Safari": "n",
+                    "Android Browser": "n",
+                    "微信浏览器(Android)": "n",
+                    "QQ浏览器(Android)": "n"
+                },
+                "H5-pc": {
+                    "Chrome": "n",
+                    "IE": "n",
+                    "Edge": "n",
+                    "Firefox": "n",
+                    "Safari": "n"
+                },
+                "小程序": {
+                    "微信": "n",
+                    "阿里": "n",
+                    "百度": "n",
+                    "字节跳动": "n",
+                    "QQ": "n",
+                    "钉钉": "n",
+                    "快手": "n",
+                    "飞书": "n",
+                    "京东": "n"
+                },
+                "快应用": {
+                    "华为": "n",
+                    "联盟": "n"
+                }
+            }
+        }
+    },
+    "name": "成都极数医疗蓝牙打印SDK-UTS插件"
+}
